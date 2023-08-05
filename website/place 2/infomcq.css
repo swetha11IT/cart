@@ -1,0 +1,15 @@
+
+.info{
+    position:absolute;
+    top:150%;
+    left:50%;
+    color:black;
+    font-family: Lucida Handwriting ;
+    font-size: 20px;
+    transform:translate(-50%,-50%);
+}
+.mcq1{
+    margin-left: -300px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}

@@ -1,0 +1,62 @@
+*{
+    margin:550;
+    padding:10; 
+}
+.dream{
+    position:absolute;
+    top:30%;
+    left:50%;
+    color:white;
+    font-family: Lucida Handwriting ;
+    font-size: 20px;
+    transform:translate(-50%,-50%);
+}
+.infosys{
+       margin-left: -50%;
+       border-radius: 50%;
+       height: 50px;
+       width:50px;
+       float :left;
+
+}
+.zoom1{
+    padding: 5px;
+    transition: transform .2s; /* Animation */
+    width: 500px;
+height: 50px;
+  }
+  .zoom1:hover {
+    transform: scale(1.1); 
+}
+.zoho{
+    margin-left:35%;
+    height: 100px;
+    width: 100px;
+
+}
+.ibm{
+    margin-left: 475%;
+    height:100px;
+    width: 100px;
+    margin-top: -214px;
+}
+.mistral{
+    margin-left: -240%;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    float :left;
+
+
+}
+.tcs{
+    margin-left: 250%;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    float :left;
+
+
+    
+}
+

@@ -1,0 +1,135 @@
+*{
+    margin:550;
+    padding:10;
+}
+.main{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,white 90%),url(images.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width:1200 px;
+    height: 75px;
+    margin :auto;
+    
+}
+.menu{
+    width:400px;
+    float: left;
+    height: 70px;
+     position: fixed;
+      top:0; 
+      right:0;
+    }
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content:left;
+    align-items:left;
+}
+ul li{
+    list-style:none;
+    margin-left:62px;
+    margin-top: 19px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:aqua;
+}
+.search{
+    width:1330px;
+    float:left;
+    margin-left: 470px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width:300px;
+    height:40px;
+    background: transparent;
+    margin-top: 13px;
+}
+.btn{
+    width:100px;
+    height:40px;
+    background-color:#fff;
+    border: 2px solid black;
+    margin-top:13px;
+    color:brown;
+    font-size: 15px;
+    cursor:pointer;
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: black;
+    position: relative;
+}
+.content .par{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin:auto;
+    color: #fff;
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size:20px;
+    padding-left: 20px;
+    margin-top: 220px;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 120px;
+    height: 40px;
+    background-color: aliceblue;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.form{
+    width:250px;
+    height: 380px;
+    background: linear-gradient(to top,rgba(0,0,0.8)50%,rgba(0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.tar{
+    width:100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,white 90%),url(dnd.img);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+

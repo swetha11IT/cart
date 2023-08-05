@@ -1,0 +1,24 @@
+<body>
+    <header>
+        <h1>Login</h1>
+    </header>
+    <main>
+        <link rel="stylesheet" href="sript.css">
+
+        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Login:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Enter username" autofocus><br><br>
+                <label>Password:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Enter password"><br><br>
+                <button class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Enter</button>
+            </div>
+            <div class="info_div">
+                <p></p> <a href="register/reg-form.php"></a></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p> <a href="#">&trade;</a></p>
+    </footer>
+</body>
